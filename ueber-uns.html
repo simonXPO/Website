@@ -62,7 +62,7 @@
     .page-hero p { font-size: 1.05rem; color: #4B5563; line-height: 1.7; max-width: 560px; margin: 0 auto; }
 
     /* WARUM SECTION */
-    .warum-wrap { padding: 4rem 5%; background: #fff; }
+    .warum-wrap { padding: 4rem 5%; background: #F9FAFB; border-top: 1px solid #E5E7EB; }
     .warum-inner { max-width: 860px; margin: 0 auto; }
     .warum-inner h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; color: #0D0D0D; margin-bottom: 0.6rem; letter-spacing: -0.01em; }
     .warum-inner h2 em { font-style: normal; color: #1B6B45; }
@@ -73,7 +73,7 @@
     .warum-item p { font-size: 0.9rem; color: #4B5563; line-height: 1.65; }
 
     /* TEAM SECTION */
-    .team-wrap { padding: 4rem 5%; background: #F9FAFB; border-top: 1px solid #E5E7EB; }
+    .team-wrap { padding: 4rem 5%; background: #fff; }
     .team-inner { max-width: 860px; margin: 0 auto; }
     .team-inner h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; color: #0D0D0D; margin-bottom: 0.6rem; letter-spacing: -0.01em; }
     .team-inner h2 em { font-style: normal; color: #1B6B45; }
@@ -126,10 +126,15 @@
       <div class="nav-dd">
         <a href="leistungen.html" class="nav-dd-trigger">Leistungen <span class="nav-dd-arrow">▾</span></a>
         <div class="nav-dd-menu">
-          <a href="leistungen.html">Online-Präsenz</a>
-          <a href="effizienz.html">Zeitfresser-Workshop</a>
+          <a href="leistungen.html">Online-Präsenz (Übersicht)</a>
+          <a href="leistungen/seo.html">Lokales SEO</a>
+          <a href="leistungen/website-erstellung.html">Website-Erstellung</a>
+          <a href="leistungen/geo.html">GEO</a>
+          <a href="leistungen/google-ads.html">Google Ads &amp; AI Ads</a>
+          <a href="effizienz.html">Zeitfresser & Prozessoptimierung</a>
         </div>
       </div>
+      <a href="blog/index.html">Blog</a>
       <a href="index.html#vorteile">Vorteile</a>
       <a href="index.html#faq">FAQ</a>
       <a href="ueber-uns.html" class="active">Über uns</a>
@@ -142,28 +147,6 @@
     <div class="ps-badge">👋 Das Team</div>
     <h1>Die Leute <em>hinter XPONext.</em></h1>
     <p>Keine riesige Agentur, keine anonymen Projektmanager. Du weißt immer, mit wem du sprichst – und wer für dein Ergebnis verantwortlich ist.</p>
-  </div>
-
-  <!-- WARUM XPONEXT -->
-  <div class="warum-wrap">
-    <div class="warum-inner">
-      <h2>Warum <em>XPONext?</em></h2>
-      <p>Wir sind keine Agentur für Konzerne. Wir sind für Architekturbüros, die online wachsen und intern effizienter werden wollen.</p>
-      <div class="warum-grid">
-        <div class="warum-item">
-          <h3>Alles aus einer Hand</h3>
-          <p>Wir übernehmen das, wofür du keine Zeit hast, aber von dem du weißt, dass es wichtig ist: Website, Ads, SEO und Bewertungen – koordiniert von einem festen Ansprechpartner, der dein Geschäft kennt.</p>
-        </div>
-        <div class="warum-item">
-          <h3>Spezialisiert auf Architekturbüros</h3>
-          <p>Wir arbeiten primär mit Architekturbüros und kennen ihre typischen Herausforderungen: von der Sichtbarkeit bei Bauherren bis zu ineffizienten internen Abläufen. Keine Konzern-Kompromisse.</p>
-        </div>
-        <div class="warum-item">
-          <h3>Transparente Ergebnisse</h3>
-          <p>Du siehst jeden Monat genau, was dein Investment bringt: Klicks, Anfragen, Rankings. Keine leeren Versprechen, nur Zahlen.</p>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- TEAM -->
@@ -196,6 +179,28 @@
     </div>
   </div>
 
+  <!-- WARUM XPONEXT -->
+  <div class="warum-wrap">
+    <div class="warum-inner">
+      <h2>Warum <em>XPONext?</em></h2>
+      <p>Wir sind keine Agentur für Konzerne. Wir sind für Architekturbüros, die online wachsen und intern effizienter werden wollen.</p>
+      <div class="warum-grid">
+        <div class="warum-item">
+          <h3>Alles aus einer Hand</h3>
+          <p>Wir übernehmen das, wofür du keine Zeit hast, aber von dem du weißt, dass es wichtig ist: Website, Ads, SEO und Bewertungen – koordiniert von einem festen Ansprechpartner, der dein Geschäft kennt.</p>
+        </div>
+        <div class="warum-item">
+          <h3>Spezialisiert auf Architekturbüros</h3>
+          <p>Wir arbeiten primär mit Architekturbüros und kennen ihre typischen Herausforderungen: von der Sichtbarkeit bei Bauherren bis zu ineffizienten internen Abläufen. Keine Konzern-Kompromisse.</p>
+        </div>
+        <div class="warum-item">
+          <h3>Transparente Ergebnisse</h3>
+          <p>Du siehst jeden Monat genau, was dein Investment bringt: Klicks, Anfragen, Rankings. Keine leeren Versprechen, nur Zahlen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- CTA -->
   <div class="cta-block">
     <h2>Gemeinsam <em>mehr erreichen?</em></h2>
@@ -212,10 +217,16 @@
     <div class="footer-col">
       <div class="footer-col-title">Seiten</div>
       <a href="leistungen.html">Leistungen</a>
-      <a href="effizienz.html">Zeitfresser-Workshop</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="effizienz.html">Zeitfresser & Prozessoptimierung</a>
       <a href="index.html#vorteile">Vorteile</a>
       <a href="index.html#faq">FAQ</a>
       <a href="ueber-uns.html">Über uns</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">Einzugsgebiete</div>
+      <a href="einzugsgebiet/bonn.html">Bonn</a>
+      <a href="einzugsgebiet/koeln.html">Köln</a>
     </div>
     <div class="footer-col">
       <div class="footer-col-title">Rechtliches</div>
